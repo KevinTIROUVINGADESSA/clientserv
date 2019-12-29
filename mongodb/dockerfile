@@ -1,0 +1,6 @@
+FROM mongo:latest
+WORKDIR /
+RUN mkdir /dump/
+COPY dump/ /dump/
+COPY initdb.sh /docker-entrypoint-initdb.d/
+
