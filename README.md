@@ -1,5 +1,7 @@
 # TP Microservices
 ## Lancer le projet
+`git clone https://github.com/KevinTIROUVINGADESSA/clientserv.git  `
+
 `cd clientserv  `
 
 `sudo docker-compose build`  
